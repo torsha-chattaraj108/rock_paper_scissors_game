@@ -12,7 +12,7 @@ class RockPaperScissors:
         self.history={'rock':0,'paper':0,'scissors':0}
     def select_difficulty(self):
         while True:
-            level=input('Enter the difficuty level(easy/difficult): ').strip().lower()
+            level=input('Enter the difficulty level(easy/difficult): ').strip().lower()
             if level in ['easy','difficult']:
                 self.difficulty=level
                 print(f'Difficulty level set to {self.difficulty.upper()}\n')
