@@ -79,9 +79,6 @@ class RockPaperScissors:
                 streak_text=f'NEUTRAL STREAK'
             print(f"Your current score: {self.score['you']}| My current score: {self.score['comp']}| Tie:{self.score['tie']}")
             print(f"Win rate: {win_rate:.1f}% | {streak_text}")
-            if self.rounds_played==0:
-                print('\nNo rounds were played')
-                return
         print(f"\n{'FINAL STATS ':=^46}")
         print(f"Your final score: {self.score['you']:>28}")
         print(f"My final score:   {self.score['comp']:>28}")
